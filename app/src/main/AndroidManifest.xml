@@ -15,9 +15,7 @@
         <activity
             android:name=".DetailHewanActivity"
             android:exported="false" />
-        <activity
-            android:name=".RecycleView"
-            android:exported="false" />
+
         <activity
             android:name=".list"
             android:exported="false" />

@@ -41,8 +41,8 @@ class list : AppCompatActivity() {
             parent,view,position , id ->
             Toast.makeText(this,"anda memilih : ${nama_hewan[position]}",
                 Toast.LENGTH_SHORT).show()
-        val intent = Intent(this@list,DetailHewanActivity::class.java)
 
+        val intent = Intent(this@list, DetailHewanActivity::class.java)
             intent.putExtra("desk",hewan_desk[position])
             startActivity(intent)
         }
